@@ -1,0 +1,14 @@
+{
+  "name": "multi-cloud-identity-governance",
+  "version": "1.0.0",
+  "description": "Multi-Cloud Privileged Account Governance Platform",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev": "start /b npm --prefix backend run dev & start /b npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "test": "npm --prefix backend run test"
+  }
+}
