@@ -34,3 +34,12 @@ yarn-error.log*
 *.sw?
 .DS_Store
 Thumbs.db
+
+# Ensure environment files are not uploaded
+.env
+.env.*
+!.env.example
+
+.env
+.env.*
+!.env.example
