@@ -16,6 +16,7 @@ export const initRedis = (): Redis | null => {
       host: REDIS_HOST,
       port: REDIS_PORT,
       password: REDIS_PASSWORD,
+      tls:{},
       enableOfflineQueue: false,
       connectTimeout: 2000,
       maxRetriesPerRequest: 1,
